@@ -1,0 +1,6 @@
+http-server
+=======
+
+This module is http server based on [CherryPy]. 
+
+[CherryPy]: http://cherrypy.org/ "A Minimalist Python Web Framework"
