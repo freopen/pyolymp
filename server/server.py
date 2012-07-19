@@ -6,4 +6,4 @@ class Test:
         return "Hello, world"
     index.exposed = True
 
-http_server.start_http_server(Test(), "http_server.conf")
+http_server.start_http_server(Test(), "conf/http_server.conf")

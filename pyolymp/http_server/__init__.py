@@ -13,8 +13,7 @@ def start_http_server(handler, config):
     config
         A path to config file in cherrypy style.
     """
-    cherrypy.tree.mount(handler)
-    cherrypy.config.update(config)
+    cherrypy.tree.mount(handler, config=config)
     engine = cherrypy.engine
     try:
         engine.start()
